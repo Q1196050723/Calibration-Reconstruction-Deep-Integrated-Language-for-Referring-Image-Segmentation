@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python test.py --model lavt --swin_type base --dataset refcoco --split testB --resume /mnt/data/ycyan/LAVT/checkpoints/model_best_refcoco.pth --workers 4 --ddp_trained_weights --window12 --img_size 480
